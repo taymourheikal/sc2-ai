@@ -24,9 +24,10 @@ DOWN_MINERAL_RATE_REWARD = -0.6
 SPENT_MINERALS_REWARD = 0.4
 
 ## To run this:
-## python -m pysc2.bin.agent --map Simple64 --agent my_smart_agent.SmartAgent --agent_race T --max_agent_steps 0 --norender
+## python -m pysc2.bin.agent --map Simple64 --agent my_smart_agent-v1.SmartAgent --agent_race T --max_agent_steps 0 --norender
 
-# Stolen from https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
+## This Class stolen from https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
+## Simple q learning -- Does not incorporate a NN
 class QLearningTable:
 	def __init__(self, allactions, learning_rate=0.1, reward_decay=0.9, e_greedy=0.95):
 		self.allactions = allactions  # a list
