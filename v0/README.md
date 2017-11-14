@@ -2,7 +2,7 @@ Version 0 notes and improvements to be made:
 
 This version took a couple of days to implement once the PySC2 documentation and code was (somewhat) sufficiently understood.
 
-This is only a small modification on Steven Brown's tutorial code on building a smart agent (reward structure is different, and included full list of actions the agent can take at any timestep in the quest for full autonomy). The tutorial was very helpful, and his code is available on GitHub as well. I highly recommend you visit his titorial article if you've installed PySC2 and are asking yourself "now what?": https://chatbotslife.com/building-a-smart-pysc2-agent-cdc269cb095d
+This is only a small modification on Steven Brown's tutorial code on building a smart agent (reward structure is different, and included full list of actions the agent can take at any timestep in the quest for full autonomy). The tutorial was very helpful, and his code is available on GitHub as well; I highly recommend you read it if you've installed PySC2 and are asking yourself "now what?": https://chatbotslife.com/building-a-smart-pysc2-agent-cdc269cb095d
 
 Notes & Next Improvements:
 - This version does not include a Deep Q Network (DQN); strictly built as a simple Q-Learning agent. This means that performance can be somewhat stable at the beginning of a game, but it quickly tends towards complete randomness.
