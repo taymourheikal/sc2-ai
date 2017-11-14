@@ -7,4 +7,4 @@ The state of the art in RL has taken leaps and bounds in the last few years, mos
 
 Google's DeepMind has also had success in building RL agents for Atari games, but now has set it's sights on a more daunting task in StarCraft II. Along with Blizzard Entertainment, DeepMind has released what they call the SC2 Learning Environment which they hope will accelerate AI research in the real-time strategy game: https://deepmind.com/blog/deepmind-and-blizzard-open-starcraft-ii-ai-research-environment/
 
-Here's an idea of what it may look like (one day): https://www.youtube.com/watch?v=WEOzide5XFc
+**Here's an idea of what it may look like (one day):** https://www.youtube.com/watch?v=WEOzide5XFc
